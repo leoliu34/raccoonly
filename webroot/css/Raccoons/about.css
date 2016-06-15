@@ -1,0 +1,35 @@
+#collapse-one .panel-body img {
+    max-width: 300px;
+    float: right;
+}
+
+#collapse-two .panel-body img:first-child {
+    width: 530px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#collapse-two .panel-body img:nth-child(2) {
+    width: 530px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#collapse-two .choices ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#collapse-three img.left {
+    float: left;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#collapse-three img.right {
+    float: right;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
